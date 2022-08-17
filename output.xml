@@ -1,75 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.7.9 on linux)" generated="20220817 10:07:19.639" rpa="false" schemaversion="3">
-<suite id="s1" name="Tads Tests" source="/home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/tads_tests.robot">
-<test id="s1-t1" name="TEST CASE 1: Verify internship page" line="11">
-<kw name="Open the browser" library="tads_resources" type="SETUP">
-<kw name="Open Browser" library="SeleniumLibrary">
-<arg>browser=${BROWSER}</arg>
+<robot generator="Robot 5.0.1 (Python 3.7.9 on linux)" generated="20220817 10:11:22.647" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Cases" source="/home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/subtests/RU/test_cases.robot">
+<test id="s1-t1" name="Access RU menu" line="9">
+<kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220817 10:07:19.788" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
-<msg timestamp="20220817 10:07:19.788" level="INFO">Firefox driver log is always forced to to: /home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/geckodriver-13.log</msg>
-<status status="PASS" starttime="20220817 10:07:19.788" endtime="20220817 10:07:22.286"/>
+<msg timestamp="20220817 10:11:22.790" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<msg timestamp="20220817 10:11:22.791" level="INFO">Firefox driver log is always forced to to: /home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/geckodriver-15.log</msg>
+<status status="PASS" starttime="20220817 10:11:22.790" endtime="20220817 10:11:25.264"/>
 </kw>
-<kw name="Maximize Browser Window" library="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220817 10:07:22.286" endtime="20220817 10:07:22.546"/>
-</kw>
-<status status="PASS" starttime="20220817 10:07:19.787" endtime="20220817 10:07:22.546"/>
-</kw>
-<kw name="Access website &quot;${URL}&quot;" library="tads_resources" sourcename="Access website &quot;${WEBSITE}&quot;">
+<kw name="Access RU website" library="resources">
 <kw name="Go To" library="SeleniumLibrary">
-<arg>${WEBSITE}</arg>
+<arg>${RU_WEBSITE}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220817 10:07:22.549" level="INFO">Opening url 'https://www.tads.ufpr.br/'</msg>
-<status status="PASS" starttime="20220817 10:07:22.548" endtime="20220817 10:07:24.631"/>
+<msg timestamp="20220817 10:11:25.266" level="INFO">Opening url 'https://pra.ufpr.br/ru/'</msg>
+<status status="PASS" starttime="20220817 10:11:25.265" endtime="20220817 10:11:28.007"/>
 </kw>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<arg>locator=${PAGE_TITLE}</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20220817 10:07:24.632" endtime="20220817 10:07:24.670"/>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>${PAGE_TITLE}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220817 10:11:28.011" level="INFO">Page title is 'Restaurante Universitário'.</msg>
+<status status="PASS" starttime="20220817 10:11:28.007" endtime="20220817 10:11:28.011"/>
 </kw>
-<status status="PASS" starttime="20220817 10:07:22.547" endtime="20220817 10:07:24.670"/>
+<status status="PASS" starttime="20220817 10:11:25.265" endtime="20220817 10:11:28.011"/>
 </kw>
-<kw name="Click in the COE menu" library="tads_resources">
+<kw name="Click in the menu" library="resources">
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>locator=${COE_MENU}</arg>
+<arg>locator=${MENU_BTN}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220817 10:07:24.671" level="INFO">Clicking element '//a[@role='menuitem'][contains(.,'COE (Estágio)')]'.</msg>
-<status status="PASS" starttime="20220817 10:07:24.671" endtime="20220817 10:07:25.043"/>
+<msg timestamp="20220817 10:11:28.013" level="INFO">Clicking element '(//a[@title='Cardápio'][contains(.,'Cardápio')])[2]'.</msg>
+<status status="PASS" starttime="20220817 10:11:28.012" endtime="20220817 10:11:29.232"/>
 </kw>
-<status status="PASS" starttime="20220817 10:07:24.670" endtime="20220817 10:07:25.043"/>
+<status status="PASS" starttime="20220817 10:11:28.011" endtime="20220817 10:11:29.233"/>
 </kw>
-<kw name="Is in the page &quot;Membros do COE&quot;" library="tads_resources" sourcename="Is in the page &quot;${TEXT}&quot;">
+<kw name="Verify if RU page loads" library="resources">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<arg>locator=//p[contains(.,'${TEXT} (atendimento por email e Teams durante a suspensão do calendário acadêmico):')]</arg>
+<arg>locator=${VALID_TITLE}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20220817 10:07:25.044" endtime="20220817 10:07:25.083"/>
+<status status="PASS" starttime="20220817 10:11:29.234" endtime="20220817 10:11:29.274"/>
 </kw>
-<status status="PASS" starttime="20220817 10:07:25.043" endtime="20220817 10:07:25.084"/>
+<status status="PASS" starttime="20220817 10:11:29.233" endtime="20220817 10:11:29.275"/>
 </kw>
-<kw name="Close the browser" library="tads_resources" type="TEARDOWN">
-<kw name="Close Browser" library="SeleniumLibrary">
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220817 10:07:25.085" endtime="20220817 10:07:26.267"/>
+<status status="PASS" starttime="20220817 10:11:29.276" endtime="20220817 10:11:30.370"/>
 </kw>
-<status status="PASS" starttime="20220817 10:07:25.084" endtime="20220817 10:07:26.267"/>
-</kw>
-<doc>Access internship menu in the tads website</doc>
-<tag>internship</tag>
-<status status="PASS" starttime="20220817 10:07:19.786" endtime="20220817 10:07:26.267"/>
+<status status="PASS" starttime="20220817 10:11:22.789" endtime="20220817 10:11:30.370"/>
 </test>
-<doc>Verify TADS page</doc>
-<status status="PASS" starttime="20220817 10:07:19.640" endtime="20220817 10:07:26.269"/>
+<doc>Casos de teste para exemplo de cardápios do RU</doc>
+<status status="PASS" starttime="20220817 10:11:22.648" endtime="20220817 10:11:30.371"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0" skip="0">internship</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Tads Tests">Tads Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Cases">Test Cases</stat>
 </suite>
 </statistics>
 <errors>

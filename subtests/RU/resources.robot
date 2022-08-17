@@ -6,7 +6,8 @@ Library        SeleniumLibrary
 ${BROWSER}    firefox
 ${PAGE_TITLE}    Restaurante Universitário
 ${RU_WEBSITE}   https://pra.ufpr.br/ru/
-${MENU_BTN}     /html/body/div[4]/div[1]/div/li/div/ul/li[1]/a
+${MENU_BTN}     (//a[@title='Cardápio'][contains(.,'Cardápio')])[2]
+${VALID_TITLE}  //h2[contains(.,'Cardápios')]
 
 *** Keywords ***
 Open the browser
@@ -23,5 +24,5 @@ Access RU website
 Click in the menu
     Click Element    locator=${MENU_BTN}
 
-Is in the page "${TEXT}"
-    Wait Until Element Is Visible    locator=//p[contains(.,'${TEXT}')
+Verify if RU page loads
+    Wait Until Element Is Visible    locator=${VALID_TITLE}

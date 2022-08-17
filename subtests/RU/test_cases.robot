@@ -9,3 +9,4 @@ Resource    resources.robot
 Access RU menu
     Access RU website
     Click in the menu
+    Verify if RU page loads
