@@ -1,0 +1,51 @@
+1660740914756	geckodriver	INFO	Listening on 127.0.0.1:57309
+1660740914765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55329" "-no-remote" "-profile" "/tmp/rust_mozprofilenWAfqP"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660740917206	Marionette	INFO	Listening on port 35759
+1660740917274	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660740919651	Marionette	INFO	Stopped listening on port 35759
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/prefetch"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "media_videojs/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_calendar/month_navigation_drag_drop"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_calendar/month_view_drag_drop"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_calendar/calendar"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_calendar/popover"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/moremenu"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/usermenu"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_boost/drawers"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_boost/footer-popover"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_boost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_boost/drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "mod_forum/discussion_list"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log", needed by: core/ajax
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/utility"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/config", needed by: core/ajax, core/localstorage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/storagewrapper", needed by: core/localstorage
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/url", needed by: core/ajax
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."

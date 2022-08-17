@@ -1,0 +1,27 @@
+1660741639793	geckodriver	INFO	Listening on 127.0.0.1:38335
+1660741639804	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38095" "-no-remote" "-profile" "/tmp/rust_mozprofileLZjVCQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660741642175	Marionette	INFO	Listening on port 34271
+1660741642211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/yui", needed by: core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event_dispatcher", needed by: core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "jquery", needed by: core/first, core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+1660741645086	Marionette	INFO	Stopped listening on port 34271
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event_dispatcher", needed by: core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/yui", needed by: core_form/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "jquery", needed by: core/first, core_form/events, core/str
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/ajax", needed by: core/str
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/localstorage", needed by: core/str
+http://requirejs.org/docs/errors.html#scripterror

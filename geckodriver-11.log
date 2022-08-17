@@ -1,0 +1,21 @@
+1660741491053	geckodriver	INFO	Listening on 127.0.0.1:40763
+1660741491063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42609" "-no-remote" "-profile" "/tmp/rust_mozprofileyKvAa4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660741493251	Marionette	INFO	Listening on port 44385
+1660741493273	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660741496924	Marionette	INFO	Stopped listening on port 44385
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/popper", needed by: theme_boost/bootstrap/dropdown, theme_boost/bootstrap/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_boost/bootstrap/tools/sanitizer", needed by: theme_boost/bootstrap/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/mustache", needed by: core/templates
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/icon_system", needed by: core/templates
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/truncate", needed by: core/templates
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.tads.ufpr.br/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/user_date", needed by: core/templates
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
