@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.7.9 on linux)" generated="20220817 10:44:40.364" rpa="false" schemaversion="3">
-<suite id="s1" name="Test Cases" source="/home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/subtests/RU/test_cases.robot">
-<test id="s1-t1" name="Search prices" line="20">
+<robot generator="Robot 5.0.1 (Python 3.7.9 on linux)" generated="20220817 10:50:13.997" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Cases" source="/home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/subtests/RU_Gherkin/test_cases.robot">
+<test id="s1-t1" name="Access RU menu" line="9">
 <kw name="Open Browser" library="SeleniumLibrary" type="SETUP">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220817 10:44:40.520" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
-<msg timestamp="20220817 10:44:40.521" level="INFO">Firefox driver log is always forced to to: /home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/geckodriver-26.log</msg>
-<status status="PASS" starttime="20220817 10:44:40.520" endtime="20220817 10:44:42.983"/>
+<msg timestamp="20220817 10:50:14.153" level="INFO">Opening browser 'firefox' to base url 'None'.</msg>
+<msg timestamp="20220817 10:50:14.153" level="INFO">Firefox driver log is always forced to to: /home/leonardozanotti/Desktop/projetos-linux/RobotFrameworkTestCase/geckodriver-1.log</msg>
+<status status="PASS" starttime="20220817 10:50:14.152" endtime="20220817 10:50:16.742"/>
 </kw>
-<kw name="Access RU website" library="resources">
+<kw name="Given The RU website is accessed" library="resources">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>${RU_WEBSITE}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220817 10:44:42.984" level="INFO">Opening url 'https://pra.ufpr.br/ru/'</msg>
-<status status="PASS" starttime="20220817 10:44:42.984" endtime="20220817 10:45:13.957"/>
+<msg timestamp="20220817 10:50:16.745" level="INFO">Opening url 'https://pra.ufpr.br/ru/'</msg>
+<status status="PASS" starttime="20220817 10:50:16.744" endtime="20220817 10:51:00.853"/>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <arg>${PAGE_TITLE}</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20220817 10:45:13.973" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Failed to decode response from marionette
+<msg timestamp="20220817 10:51:00.869" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Failed to decode response from marionette
 </msg>
-<msg timestamp="20220817 10:45:13.975" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
+<msg timestamp="20220817 10:51:00.870" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
 Stacktrace:
 WebDriverError@chrome://marionette/content/error.js:175:5
 NoSuchWindowError@chrome://marionette/content/error.js:409:5
@@ -33,25 +33,22 @@ onPacket/&lt;@chrome://marionette/content/server.js:248:20
 onPacket@chrome://marionette/content/server.js:249:9
 _onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:501:20
 </msg>
-<status status="FAIL" starttime="20220817 10:45:13.957" endtime="20220817 10:45:13.977"/>
+<status status="FAIL" starttime="20220817 10:51:00.854" endtime="20220817 10:51:00.871"/>
 </kw>
-<status status="FAIL" starttime="20220817 10:44:42.983" endtime="20220817 10:45:13.979"/>
+<status status="FAIL" starttime="20220817 10:50:16.743" endtime="20220817 10:51:00.872"/>
 </kw>
-<kw name="Write &quot;preço RU&quot; and search" library="resources" sourcename="Write &quot;${SEARCH_TERM}&quot; and search">
-<status status="NOT RUN" starttime="20220817 10:45:13.979" endtime="20220817 10:45:13.980"/>
+<kw name="When Clicked in the menu" library="resources">
+<status status="NOT RUN" starttime="20220817 10:51:00.873" endtime="20220817 10:51:00.873"/>
 </kw>
-<kw name="Verify if the page &quot;preços&quot; is in the results" library="resources">
-<status status="NOT RUN" starttime="20220817 10:45:13.980" endtime="20220817 10:45:13.980"/>
-</kw>
-<kw name="Check if prices are shown" library="resources">
-<status status="NOT RUN" starttime="20220817 10:45:13.980" endtime="20220817 10:45:13.980"/>
+<kw name="Then The RU page loads" library="resources">
+<status status="NOT RUN" starttime="20220817 10:51:00.873" endtime="20220817 10:51:00.873"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220817 10:45:13.981" endtime="20220817 10:45:13.983"/>
+<status status="PASS" starttime="20220817 10:51:00.874" endtime="20220817 10:51:00.876"/>
 </kw>
-<tag>price</tag>
-<status status="FAIL" starttime="20220817 10:44:40.519" endtime="20220817 10:45:13.983">NoSuchWindowException: Message: Browsing context has been discarded
+<tag>menu</tag>
+<status status="FAIL" starttime="20220817 10:50:14.152" endtime="20220817 10:51:00.876">NoSuchWindowException: Message: Browsing context has been discarded
 Stacktrace:
 WebDriverError@chrome://marionette/content/error.js:175:5
 NoSuchWindowError@chrome://marionette/content/error.js:409:5
@@ -65,22 +62,22 @@ onPacket@chrome://marionette/content/server.js:249:9
 _onJSONObjectReady/&lt;@chrome://marionette/content/transport.js:501:20
 </status>
 </test>
-<doc>Example test cases of RU menu</doc>
-<status status="FAIL" starttime="20220817 10:44:40.365" endtime="20220817 10:45:13.985"/>
+<doc>Example test cases of RU menu in Gherkin</doc>
+<status status="FAIL" starttime="20220817 10:50:13.999" endtime="20220817 10:51:00.877"/>
 </suite>
 <statistics>
 <total>
 <stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1" skip="0">price</stat>
+<stat pass="0" fail="1" skip="0">menu</stat>
 </tag>
 <suite>
 <stat pass="0" fail="1" skip="0" id="s1" name="Test Cases">Test Cases</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220817 10:45:13.973" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Failed to decode response from marionette
+<msg timestamp="20220817 10:51:00.869" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: Failed to decode response from marionette
 </msg>
 </errors>
 </robot>
