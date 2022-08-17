@@ -1,0 +1,9 @@
+1660742939754	geckodriver	INFO	Listening on 127.0.0.1:40221
+1660742939768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46369" "-no-remote" "-profile" "/tmp/rust_mozprofile3jEpCL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660742942249	Marionette	INFO	Listening on port 40733
+1660742942278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1660743038815	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1660743038982	Marionette	INFO	Stopped listening on port 40733

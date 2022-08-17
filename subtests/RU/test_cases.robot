@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   Casos de teste para exemplo de cardápios do RU
+Documentation   Example test cases of RU menu
 Test Setup      Open browser
 Test Teardown   Close browser
 
@@ -10,3 +10,7 @@ Access RU menu
     Access RU website
     Click in the menu
     Verify if RU page loads
+
+Verify breakfast
+    Access polytechnic RU website
+    Check if the breakfast menu is available

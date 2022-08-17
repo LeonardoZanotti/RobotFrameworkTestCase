@@ -1,0 +1,7 @@
+1660743040489	geckodriver	INFO	Listening on 127.0.0.1:47335
+1660743040498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55289" "-no-remote" "-profile" "/tmp/rust_mozprofilem7qk8I"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660743042755	Marionette	INFO	Listening on port 33685
+1660743042808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1660743050466	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1660743050680	Marionette	INFO	Stopped listening on port 33685
