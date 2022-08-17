@@ -1,0 +1,8 @@
+1660739482345	geckodriver	INFO	Listening on 127.0.0.1:53575
+1660739482355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47311" "-no-remote" "-profile" "/tmp/rust_mozprofileYJNwMI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1660739484989	Marionette	INFO	Listening on port 46565
+1660739485065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1660739492583	Marionette	INFO	Stopped listening on port 46565

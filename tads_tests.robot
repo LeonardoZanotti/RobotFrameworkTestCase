@@ -12,6 +12,6 @@ ${MENU_NAME}        COE (Estágio)
 TEST CASE 1: Verify internship page
     [Documentation]     Access internship menu in the tads website
     [Tags]              internship
-    Access website ${URL}
+    Access website "${URL}"
     Click "${MENU_NAME}"
     Is in the page "Membros do COE"
